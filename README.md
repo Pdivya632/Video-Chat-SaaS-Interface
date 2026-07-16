@@ -16,7 +16,7 @@ This project showcases clean HTML structure, custom layout design, navigation ro
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Assets:** Custom icons, stylesheets, and structural assets optimized for swift client-side loading.
