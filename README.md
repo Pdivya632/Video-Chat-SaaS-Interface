@@ -6,6 +6,12 @@ This project showcases clean HTML structure, custom layout design, navigation ro
 
 ---
 
+##  Live Demo
+You can interact with the live user interface here:  
+ **[Live Project Link](https://pdivya632.github.io/Video-Chat-SaaS-Interface/)**
+
+---
+
 ##  Key Pages & Features
 
 * **`index.html` (Landing Page):** A professional marketing landing page highlighting the platform's features, value proposition, and call-to-actions.
@@ -26,7 +32,7 @@ This project showcases clean HTML structure, custom layout design, navigation ro
 ##  Directory Structure
 
 ```text
-├── assets/             # Stylesheets, images, and JavaScript components
+├── assets/             # Stylesheets, images, and Javascript components
 ├── index.html          # Main application landing page
 ├── chat.html           # Dedicated real-time chat mock interface
 ├── vidinterface.html   # Main video conferencing room mock interface
