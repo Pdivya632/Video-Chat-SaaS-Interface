@@ -41,3 +41,12 @@ You can interact with the live user interface here:
 ├── login.html          # Secure user login form layout
 ├── register.html       # Account registration form layout
 └── README.md           # Documentation
+
+
+---
+
+##  Developer's Note & Project Evolution
+
+This project was completed in 2020 as my very first practical application after learning the fundamentals of HTML, CSS, and basic JavaScript. While it remains a proud milestone of my early coding journey, please note that:
+* **Legacy Routing:** Some page routings may lead to legacy template pages (resulting in 404 errors).
+* **Early Styling:** The responsive styles reflect my entry-level front-end capabilities at the time.
