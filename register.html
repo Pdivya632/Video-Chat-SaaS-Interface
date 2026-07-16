@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/script.js"></script>
+    <script src="assets/register.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class='menu'>
+        <span>
+            <a href='tel:(+91)-842200 4466'><i class='fa fa-phone'></i> (+91)-842200 4466</a><br>
+            <a href='mailto:connect@healthflixcare.com'><i class='fa fa-envelope'></i> connect@healthflixcare.com</a>
+        </span>
+    </div>
+    <nav class="navbar my-navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo1.jpeg" alt="" />
+            </a>
+            <button class="navbar-toggler border-0 ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item nav-active">
+                        <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="registerclass">
+        <div class="container">
+            <div class="form_wrapper">
+                <div class="form_container">
+                    <div class="title_container">
+                        <h1>Registration </h1>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="">
+                            <form action="assets/data.php" method="POST">
+                                <div class="input_field">
+                                    <input type="email" name="email" placeholder="Email" id="email" required />
+                                </div>
+                                <div class="input_field">
+                                    <input type="password" name="password" id="password" placeholder="Password"
+                                        pattern="[A-Za-z0-9]{8,}"
+                                        title="Password must be at least 8 characters long and contain only letters and numbers"
+                                        required />
+                                </div>
+                                <div class="input_field">
+                                    <input type="password" name="confirm_password" id="confirm_password"
+                                        placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-zA-Z]).{8,}"
+                                        title="Password must be at least 8 characters long and contain only letters and numbers"
+                                        required />
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="col_half">
+                                        <div class="input_field">
+                                            <input type="text" name="firstName" placeholder="First Name" id="firstName" required />
+                                        </div>
+                                    </div>
+                                    <div class="col_half">
+                                        <div class="input_field">
+                                            <input type="text" name="lastName"   id="lastName" placeholder="Last Name" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input_field radio_option">
+                                    <input type="radio" name="role" id="rd1" value="doc">
+                                    <label for="rd1">Doctor</label>
+                                    <input type="radio" name="role" id="rd2" value="pat" required>
+                                    <label for="rd2">Patient</label>
+                                </div>
+                                <div class="input_field select_option">
+                                    <select name="language">
+                                        <option>Select a language</option>
+                                        <option value="hin">Hindi</option>
+                                        <option value="eng">English</option>
+                                        <option value="mrth">Marathi</option>
+                                    </select>
+                                    <div class="select_arrow"></div>
+                                </div>
+                                <div class="input_field checkbox_option">
+                                    <input type="checkbox" id="cb1" required>
+                                    <label for="cb1">I agree with terms and conditions</label>
+                                </div>
+                                <input class="button" type="submit" value="Register"  name="submit"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Container -->
+    </div>
+    <!-- Site footer -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Company<span>logo</span></h3>
+            <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </p>
+            <p class="footer-company-name">HEALTHFLIX © 2015</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Pranik Chembers, Sakinaka, Andheri</span> East, Mumbai-72</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>(+91)-842200 4466</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:connect@healthflixcare.com">connect@healthflixcare.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
