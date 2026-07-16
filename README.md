@@ -6,30 +6,31 @@ This project showcases clean HTML structure, custom layout design, navigation ro
 
 ---
 
-##  Live Demo
+## Live Demo
+
 You can interact with the live user interface here:  
- **[Live Project Link](https://pdivya632.github.io/Video-Chat-SaaS-Interface/)**
+**[Live Project Link](https://pdivya632.github.io/Video-Chat-SaaS-Interface/)**
 
 ---
 
-##  Key Pages & Features
+## Key Pages & Features
 
-* **`index.html` (Landing Page):** A professional marketing landing page highlighting the platform's features, value proposition, and call-to-actions.
-* **`pricing.html`:** A clean SaaS pricing tier page with breakdown plans.
-* **`vidinterface.html` (Video Dashboard):** A functional mockup design representing a high-fidelity video call layout.
-* **`chat.html` (Messaging Hub):** A dedicated direct messaging and group chat interface workflow.
-* **`login.html` & `register.html`:** Form-validated authentication views for user entry.
+* **index.html (Landing Page):** A professional marketing landing page highlighting the platform's features, value proposition, and call-to-actions.
+* **pricing.html:** A clean SaaS pricing tier page with breakdown plans.
+* **vidinterface.html (Video Dashboard):** A functional mockup design representing a high-fidelity video call layout.
+* **chat.html (Messaging Hub):** A dedicated direct messaging and group chat interface workflow.
+* **login.html & register.html:** Form-validated authentication views for user entry.
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Assets:** Custom icons, stylesheets, and structural assets optimized for swift client-side loading.
 
 ---
 
-##  Directory Structure
+## Directory Structure
 
 ```text
 ├── assets/             # Stylesheets, images, and Javascript components
@@ -41,11 +42,11 @@ You can interact with the live user interface here:
 ├── login.html          # Secure user login form layout
 ├── register.html       # Account registration form layout
 └── README.md           # Documentation
-
+```
 
 ---
 
-##  Developer's Note & Project Evolution
+## Developer's Note & Project Evolution
 
 This project was completed in 2020 as my very first practical application after learning the fundamentals of HTML, CSS, and basic JavaScript. While it remains a proud milestone of my early coding journey, please note that:
 * **Legacy Routing:** Some page routings may lead to legacy template pages (resulting in 404 errors).
